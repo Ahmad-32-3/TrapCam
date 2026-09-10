@@ -1,0 +1,19 @@
+:root {
+  --chart-probe: var(--good);
+  --chart-same: var(--accent-bright);
+  --chart-supervised: var(--steel);
+  --chart-random: var(--amber);
+  --chart-chance: var(--fg-low);
+
+  --chart-1: var(--chart-probe);
+  --chart-2: var(--chart-same);
+  --chart-3: var(--chart-random);
+  --chart-4: var(--chart-chance);
+  --chart-5: var(--bad);
+
+  --chart-background: var(--bg-sunk);
+  --chart-foreground: var(--fg-hi);
+  --chart-foreground-muted: var(--fg-low);
+  --chart-label: var(--fg-low);
+  --chart-grid: var(--line-hairline);
+}

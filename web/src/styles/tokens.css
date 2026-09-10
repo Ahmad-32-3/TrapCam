@@ -1,0 +1,81 @@
+/* Night trap: ink on dark bush, IR phosphor green, dust amber. Lightless.
+   No purple, no glass, no gradients. */
+:root {
+  color-scheme: dark;
+
+  --bg-page: #12150f;
+  --bg-sunk: #0c0e0a;
+  --bg-surface: #1a1e16;
+  --bg-raised: #1a1e16;
+  --bg-accent-wash: #1e2a1c;
+
+  --line-hairline: #2a3124;
+  --line-rule: #3a4332;
+  --line-strong: #5a6450;
+
+  --fg-hi: #e7eadc;
+  --fg: #b3b8a4;
+  --fg-low: #7e846e;
+
+  --accent: #7dae62;
+  --accent-bright: #9cc87f;
+  --accent-deep: #5a8a45;
+
+  --good: #7dae62;
+  --good-soft: #1e2a1c;
+  --amber: #c4a35a;
+  --amber-soft: #2e2818;
+  --bad: #c45c48;
+  --bad-soft: #2a1612;
+  --steel: #6a8494;
+
+  --font-display: 'Newsreader', ui-serif, Georgia, 'Times New Roman', serif;
+  --font-text: 'Archivo', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-body: var(--font-text);
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
+
+  --fs-display: clamp(2.25rem, 4.6vw, 3.5rem);
+  --fs-h2: clamp(1.55rem, 2.6vw, 2rem);
+  --fs-h3: clamp(1.1rem, 1.5vw, 1.3rem);
+  --fs-lead: clamp(1.05rem, 1.2vw, 1.2rem);
+  --fs-body: 1rem;
+  --fs-sm: 0.9375rem;
+  --fs-meta: 0.8125rem;
+
+  --lh-display: 1.12;
+  --lh-head: 1.15;
+  --lh-tight: 1.4;
+  --lh-body: 1.6;
+
+  --w-display: 500;
+  --w-head: 500;
+  --w-body: 400;
+  --w-emph: 600;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --space-9: 6rem;
+  --space-10: 8rem;
+
+  --gutter: clamp(1.25rem, 4.5vw, 3.5rem);
+  --section-y: clamp(3.5rem, 8vh, 5rem);
+  --measure: 66ch;
+  --max-text: 42rem;
+  --max-page: 68rem;
+
+  --radius-2: 3px;
+  --dur-base: 200ms;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-base: 1ms;
+  }
+}
